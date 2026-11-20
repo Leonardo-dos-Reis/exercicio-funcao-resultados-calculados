@@ -10,7 +10,7 @@ function ResultadoEsperado(const ABruto , ATara : Double) : Double;
 var
   LResultadoEsperado : Double;
 begin
-  if not ( ABruto > ATara ) then
+  if not ( ABruto >= ATara ) then
     begin
       writeln('Calculo Inválido! O peso bruto deve ser maior que a tara.');
       readln;
